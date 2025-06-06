@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import VideoFrame from "./VideoFrame";
-const socket = io("http://localhost:8000");
+const socket = io("https://video-calling-app-03y3.onrender.com");
 function App() {
   const [chats, setChats] = useState([]);
   const [myName, setMyName] = useState("");
